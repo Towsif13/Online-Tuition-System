@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Teacher Register</title>
+</head>
+<link rel="stylesheet" href="signin.css">
+<body>
+	<div class="registrationbox">
+		<h1>Teacher Register</h1>
+		<form action="tsignup.php" method="post">
+			<p>Username</p>
+			<input type="text" name="username" placeholder="Enter Username" required="">
+			<p>Password</p>
+			<input type="Password" name="password" placeholder="Enter Password" required="">
+			<p>First Name</p>
+			<input type="text" name="firstName" placeholder="First Name" required="">
+			<p>Last Name</p>
+			<input type="text" name="lastName" placeholder="Last Name" required="">
+			<p>Phone</p>
+			<input type="number" name="phone" placeholder="Phone" required="">
+			<p>Institution</p>
+            <br>
+            <select name="institution">
+                <option value="">Select</option>
+                <option value="BUET">BUET</option>
+                <option value="DU">DU</option>
+                <option value="NSU">NSU</option>
+                <option value="BRAC">BRAC</option>
+                <option value="DMC">DMC</option>
+                <option value="AUST">AUST</option>
+            </select>
+            <br>
+            <p>Address</p>
+			<input type="text" name="address" placeholder="Address" required="">
+			<input type="submit" name="" value="Sign Up"><br>
+			
+			<p>Already have an account ?     </p>
+		<a href="tsignin.html">Sign In</a>
+
+		</form>
+	</div>
+
+
+</body>
+</html>
